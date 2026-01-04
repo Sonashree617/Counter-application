@@ -1,0 +1,43 @@
+body {
+  background-color: #f0f8ff; /* Light sky blue */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.counter-container {
+  text-align: center;
+  padding: 50px 20px;
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: rgb(241, 207, 156);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+}
+
+h2 {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #007BFF; /* Nice blue */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.warning {
+  color: red;
+  font-size: 14px;
+}
